@@ -58,6 +58,9 @@ angular.module('starter.controllers', [])
   };
 })
 
+.controller('SolicitudesDetalleCtrl', function($scope, $stateParams, Solicitudes) {
+  $scope.solicitudes = Solicitudes.get($stateParams.SolicitudId);
+})
 
 
 .controller('LoginCtrl', function($scope, LoginService, $ionicPopup, $state) {
