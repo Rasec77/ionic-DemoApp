@@ -23,7 +23,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services','s
   });
 })
 
-.config(function($stateProvider, $urlRouterProvider) {
+/*.config(function($stateProvider, $urlRouterProvider) {
  
   $stateProvider
   .state('map', {
@@ -34,7 +34,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services','s
  
  // $urlRouterProvider.otherwise("/");
  
-})
+})*/
 
 .config(function($stateProvider, $urlRouterProvider) {
 
@@ -61,6 +61,12 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services','s
         controller: 'DashCtrl'
       }
     }
+  })
+
+.state('login', {
+      url: '/login',
+      templateUrl: 'templates/login.html',
+      controller: 'LoginCtrl'
   })
 
 /*.state('tab.dash', {
@@ -127,6 +133,6 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services','s
 
 
   // if none of the above states are matched, use this as the fallback
-  $urlRouterProvider.otherwise('/tab/solicitudes');
+  $urlRouterProvider.otherwise('/login');
 
 });
