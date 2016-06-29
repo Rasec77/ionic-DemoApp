@@ -3910,8 +3910,8 @@ a.subdued {
     margin-top: -1px; }
     .bar.item-input-inset .item-input-wrapper input {
       padding-left: 8px;
-      width: 94%;
-      height: 28px;
+      width: 95%;
+      height: 30px;
       background: transparent; }
   .bar.bar-light {
     border-color: #ddd;
@@ -3924,11 +3924,11 @@ a.subdued {
       background-image: linear-gradient(180deg, #ddd, #ddd 50%, transparent 50%); }
   .bar.bar-stable {
     border-color: #b2b2b2;
-    background-color: #f8f8f8;
+    background-color: #387ef5;
     background-image: linear-gradient(0deg, #b2b2b2, #b2b2b2 50%, transparent 50%);
     color: #444; }
     .bar.bar-stable .title {
-      color: #444; }
+      color: #eee; }
     .bar.bar-stable.bar-footer {
       background-image: linear-gradient(180deg, #b2b2b2, #b2b2b2 50%, transparent 50%); }
   .bar.bar-positive {
@@ -4127,7 +4127,7 @@ a.subdued {
     border-color: transparent;
     background: none;
     box-shadow: none;
-    color: #444;
+    color: #eee;
     font-size: 17px; }
   .bar-stable .button.button-icon {
     border-color: transparent;
@@ -5694,7 +5694,7 @@ ion-tabs.tabs-striped.tabs-color-active-dark .tab-item.tab-item-active, ion-tabs
  * --------------------------------------------------
  */
 .item {
-  border-color: #ddd;
+  border-color: lightgray;
   background-color: #fff;
   color: #444;
   position: relative;
@@ -6195,7 +6195,7 @@ a.item-content {
 
 .item-icon-left .icon-accessory,
 .item-icon-right .icon-accessory {
-  color: #ccc;
+  color: #387ef5;
   font-size: 16px; }
 
 .item-icon-left .icon-accessory {
@@ -7647,11 +7647,11 @@ textarea {
   border-radius: 4px;
   padding-right: 8px;
   padding-left: 8px;
-  background: #eee; }
+  background: ghostwhite; }
 
 .item-input-inset .item-input-wrapper input {
   padding-left: 4px;
-  height: 29px;
+  height: 35px;
   background: transparent;
   line-height: 18px; }
 
@@ -9811,3 +9811,37 @@ a.button {
   opacity: 0;
   -webkit-transition-duration: 0s;
   transition-duration: 0s; }
+  #login {
+  background: #1c2627 url("../../../img/web-Transtotal_Home2.jpg") no-repeat center center;
+  opacity:.1;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;}
+  .scroll-content {
+    display: table !important;
+    width: 100% !important;
+    height: 100% !important;}
+
+    .div-form {
+      display: table-cell;
+      vertical-align: middle;}
+
+      .header {
+        padding-bottom: 20px;}
+
+        img {
+          display: block;
+          width: 100%;
+          margin: 0 auto;
+        }
+      
+
+      .button.button-light.active, .button.button-light.activated {
+        color: #fff;
+        opacity: 1;
+      }
+
+      
+    
+  
